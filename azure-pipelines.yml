@@ -21,4 +21,4 @@ steps:
 - task: Npm@1
   inputs:
     command: 'custom'
-    customCommand: 'run cypress:run'
+    customCommand: 'run cy:run --record --spec "cypress/e2e'
