@@ -21,14 +21,21 @@ O arquivo cypress.env.json é para ficar dentro do .gitignore porém mantive ele
 
 ## Dependências
 
-Foi utilizado o Cypress e o mochawesome. Para instalação das dependências basta digitar o comando abaixo no terminal: <br>
+Foi utilizado o Cypress e o mochawesome. Para instalação das dependências basta digitar o comando abaixo no terminal:<br>
 
 `npm install`
 
 ## Comandos iniciais para iniciar um projeto base com o Cypress
 
-- Npm init: inicia um projeto node
-- Git init: inicia um repositório git
-- npm install cypress: instala o Cypress
-- npx cypress open: abre a interface do Cypress
+- inicia um projeto node:<br>
+`npm init`
+
+- inicia um repositório git:<br>
+`git init`
+
+- instala o Cypress:<br>
+`npm install cypress`
+
+- abre a interface do Cypress:<br>
+`npx cypress open`
 
