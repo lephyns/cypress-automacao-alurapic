@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="16.906" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-11-15T15:21:22" tests="0" file="cypress\e2e\cadastro.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Verifica mensagens cadastro e login" timestamp="2022-11-15T15:21:22" tests="8" time="16.892" failures="0">
+    <testcase name="Verifica mensagens cadastro e login Verifica mensagem de e-mail inválido" time="3.516" classname="Verifica mensagem de e-mail inválido">
+    </testcase>
+    <testcase name="Verifica mensagens cadastro e login Verifica mensagem usuário disponível" time="2.002" classname="Verifica mensagem usuário disponível">
+    </testcase>
+    <testcase name="Verifica mensagens cadastro e login Verifica mensagem user name com máximo de 30 caracteres" time="1.580" classname="Verifica mensagem user name com máximo de 30 caracteres">
+    </testcase>
+    <testcase name="Verifica mensagens cadastro e login Verifica mensagem de senha com menos de 8 caracteres" time="1.162" classname="Verifica mensagem de senha com menos de 8 caracteres">
+    </testcase>
+    <testcase name="Verifica mensagens cadastro e login Verifica mensagem user name Must be lower case" time="1.337" classname="Verifica mensagem user name Must be lower case">
+    </testcase>
+    <testcase name="Verifica mensagens cadastro e login Registra novo usuário bananapicada " time="2.388" classname="Registra novo usuário bananapicada ">
+    </testcase>
+    <testcase name="Verifica mensagens cadastro e login Registra novo usuário queropudim " time="2.514" classname="Registra novo usuário queropudim ">
+    </testcase>
+    <testcase name="Verifica mensagens cadastro e login Registra novo usuário amogatos " time="2.321" classname="Registra novo usuário amogatos ">
+    </testcase>
+  </testsuite>
+</testsuites>

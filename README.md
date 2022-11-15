@@ -39,3 +39,5 @@ Foi utilizado o Cypress e o mochawesome. Para instalação das dependências bas
 - abre a interface do Cypress:<br>
 `npx cypress open`
 
+- instala junit:<br>
+`npm install junit`
