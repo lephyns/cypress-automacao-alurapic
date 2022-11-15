@@ -41,3 +41,6 @@ Foi utilizado o Cypress e o mochawesome. Para instalação das dependências bas
 
 - instala junit:<br>
 `npm install junit`
+
+- instala reporter Mochawesome:<br>
+`npm i mochawesome`

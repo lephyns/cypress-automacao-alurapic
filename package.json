@@ -6,12 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress:verify": "cypress verify",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run",
+    "cleanup": "rm -fr cypress/reports/",
+    "merge_reports": "mochawesome-merge cypress/reports/mochawesome-report/*.json > output.json",
+    "mochawesome_report": "marge --reportDir cypress/reports/mochawesome-html-report -t Cypress_Test_Report -p Cypress_HMTL_Report -f Cypress_HMTL_Report --timestamp mmddyyyy_HHMMss --charts true output.json",
+    "cy_dashboard": "cypress run --record --key 02ef3a07-cd51-4306-8097-68cfe06fbfde",
+    "cy:report": "npm run cleanup && npm run cy_dashboard && cypress run && npm run merge_reports && npm run mochawesome_report"
   },
   "author": "Rafael Rabelo da Silva",
   "license": "ISC",
   "dependencies": {
     "cypress": "^11.0.1",
-    "junit": "^1.4.9"
+    "junit": "^1.4.9",
+    "mochawesome": "^7.1.3"
   }
 }
