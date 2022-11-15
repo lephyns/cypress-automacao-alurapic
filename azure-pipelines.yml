@@ -21,4 +21,4 @@ steps:
 - task: Npm@1
   inputs:
     command: 'custom'
-    customCommand: 'npm run cypress:run'
+    customCommand: 'run cypress:run'
