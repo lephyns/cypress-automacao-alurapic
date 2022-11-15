@@ -1,0 +1,22 @@
+[
+    {
+        "email": "bananapicada@email.com",
+        "fullName": "Geovana Luiza Capela",
+        "userName": "bananapicada",
+        "password": "bananapicada123"
+    },
+
+    {
+        "email": "queropudim@email.com",
+        "fullName": "Rafael Rabelo da Silva",
+        "userName": "queropudim",
+        "password": "queropudim123"
+    },
+
+    {
+        "email": "amogatos@email.com",
+        "fullName": "Junior Peres",
+        "userName": "amogatos",
+        "password": "amogatos123"
+    }
+]

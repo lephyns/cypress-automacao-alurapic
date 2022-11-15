@@ -1,0 +1,14 @@
+{
+  "name": "cypress-automacao-alurapic",
+  "version": "1.0.0",
+  "description": "Projeto automação de testes das funcionalidades do site Alurapic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafael Rabelo da Silva",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^11.0.1"
+  }
+}
