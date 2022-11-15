@@ -5,10 +5,7 @@
 
 trigger:
 - master
-- task: Npm@1
-  inputs:
-    command: 'custom'
-    customCommand: 'npm cypress:verify'
+
 pool:
   vmImage: ubuntu-latest
 
@@ -21,3 +18,7 @@ steps:
 - script: |
     npm install
   displayName: 'npm install'
+- task: Npm@1
+  inputs:
+    command: 'custom'
+    customCommand: 'npm cypress:verify'
